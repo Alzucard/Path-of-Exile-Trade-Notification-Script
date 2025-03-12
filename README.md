@@ -29,6 +29,7 @@ Ensure you have the necessary Python libraries installed:
 
 ```sh
 pip install requests
+pip install re
 ```
 
 ### Configure the Script
