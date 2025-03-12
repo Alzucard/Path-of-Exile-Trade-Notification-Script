@@ -2,6 +2,7 @@
 
 This guide will walk you through setting up a Python script that monitors your client.txt log file in Path of Exile and sends real-time trade messages to your Telegram bot. Never miss a trade request again!
 
+
 \# Requirements
 
 \* Python 3.x
@@ -21,6 +22,7 @@ This guide will walk you through setting up a Python script that monitors your c
 
 Info: To get the actual chat ID you have to write to the Bot first. There are many tutorials on Stack Overflow on how to get your chat ID.
 
+
 \# Install Required Libraries
 
 Make sure you have requests and re installed:
@@ -28,6 +30,7 @@ Make sure you have requests and re installed:
 pip install requests
 
 pip install re
+
 
 \# Configure the Script
 
@@ -41,6 +44,7 @@ CLIENT\_LOG\_PATH = '/path/to/client.txt'  # Update with actual path
 
 LOG\_FILE\_PATH = '/path/to/log.txt'  # Update with actual path
 
+
 \# How It Works
 
 \* The script continuously reads new lines from client.txt.
@@ -52,6 +56,7 @@ LOG\_FILE\_PATH = '/path/to/log.txt'  # Update with actual path
 \* The message is sent to your Telegram bot.
 
 \* The message is logged into a text file.
+
 
 \# Run the Script
 
